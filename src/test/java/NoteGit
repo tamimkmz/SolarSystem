@@ -52,3 +52,60 @@ hey cau u work om a project
 solar system basic project and deploy
 1. main
 2. SolarSystem(all the things that u need for solar system.
+**************************************
+Phase2: two people work on the project
+
+                    Note how to navigate to git hub
+                    
+Got to the project and open git bash then
+pwd = to confirm if my git bash is in the right location and match or verify with you path must be the same.
+Git init= initialize a repository
+Git add .= adding to the staging area
+Git status= checking the status if it red its not track yet
+Git add . = we are tracking files now files are in stage area
+Git status = all files are tracked shows green
+Reds are just folder green are files and folders.
+Now I want all these green files and folders to added in the repository.
+Git commit -m  "the 1st practice of git by myself"
+= to add all file in to the repository
+Git status= here show working tree clean the means we moved the
+first stage not the staging area there are three repository working area tree clean
+and staging area. We synchronized but nothing committed yet that is why it is clean.
+We are about to push but first we need to got to github to create a repository
+git remote add origin https://github.com/tamimkmz/AyetRepository.git
+we are about to checking the remote and repository are connected or not.
+Git remote -v.
+ we are about to confirm is this the right URL we get here? yes verify or match with your
+  http:github.com in github repository.
+After verified do
+Git branch -M main
+Now I am pushing my repository for the very first time
+Git push -u origin main
+Now go to github and refresh then check everything is pushed
+
+In the future we make changes in our code how we get tracking of the update lets do this
+Git status= shows files are there or not but lets add them updates in staging area by
+Git add .
+Git commit -m “2nd practice commit”
+ At the final when we do type our git push commons like this
+Git push = everything gets UpToDate in the repository.
+
+CLONING
+ you will have the link ->code—>https—>
+ create a folder
+ open your terminal in that folder
+ git clone “url of the repo that you want to clone”
+ after cloning, close your terminals
+
+
+ PULLING when someone makes changes you can update your code:
+ -open the terminal in the project -file—>open in finder—>open terminal in folder
+ git pull
+
+ Git stash -u - will delete all your changes and will bring back your last commit
+
+
+
+ GIT FETCH
+ It tell us -> there is some update on git hub that you need to pull
+
