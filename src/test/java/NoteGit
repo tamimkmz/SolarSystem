@@ -1,0 +1,54 @@
+GIT CLASS 2
+Clone the pr
+-create new fold
+-git clone “url”
+
+Note: name sure terminal is in the right location, you have to go inside the folder
+ or close the terminal and open it again in a new location (cd ls);
+
+BEFORE DOING ANYTHING, ANY STEP DO create a new branch!
+
+create new brunch Git branch name;
+switch the focus  to that brunch - git checkout name
+check that we switched to the branch  - git branch, IntelliJ will show also that
+you’re in correct branch in bottom right corner;
+make commit on the brunch that you’re working with
+then you can switch to main and see that the changes you made did not effect main
+git push -u origin FeatureSun - will push your updated code to local repo from new brunch;
+git stash -u - will delete all your changes and will bring back your last commit
+
+
+
+Pull request is the request that lets everyone know that you’re done with code
+ and it needs to be merged.
+Go to pull requests -
+-base brunch -main
+compare- new one
+create full request, add description, chose review and so.
+merge
+after merge, please switch to main and do git fetch - to see if there are any changes
+git pull - update your code
+you can only merge to the branches from which you branch out.
+
+
+
+
+
+
+The operation of clone by default only clones main brunch, if you want to have
+there brunches o git branch -a -lists all the branches on git hub
+git checkout brunch name to download the branch from git hub
+
+
+
+MERGING IN INTEL USING LOCAL GIT:
+1 switch to the branch you want to merge to git checkout name
+Git merge “name of the brunch you want to merge”
+After resolving a conflict you MUST make a commit on the brunch in which you resolved
+ conflict git add . Git commit -m”conflict"
+4 after push everything to GitHub git push
+Scenario:
+hey cau u work om a project
+solar system basic project and deploy
+1. main
+2. SolarSystem(all the things that u need for solar system.
