@@ -55,8 +55,8 @@ solar system basic project and deploy
 **************************************
 Phase2: two people work on the project
 
-                    Note how to navigate to git hub
-                    
+                   /* Note how to navigate to git hub */
+
 Got to the project and open git bash then
 pwd = to confirm if my git bash is in the right location and match or verify with you path must be the same.
 Git init= initialize a repository
@@ -108,4 +108,9 @@ CLONING
 
  GIT FETCH
  It tell us -> there is some update on git hub that you need to pull
+
+Person 1 : Responsibility add feature Sun to the project.
+Make sure that the feature is working fine before it is merged to the main branch.
+Person 1 To Do: Clone the project
+       2 add new feature in the new branch
 

@@ -8,7 +8,11 @@ public class main {
         solarsys.Moon="2";
         solarsys.Planets="2";
         solarsys.Stars="10";
-    }}
+
+    }
+}
+// local repo
+
 
 
 
